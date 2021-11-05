@@ -1,0 +1,52 @@
+
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+
+    char a = 'a';
+    char b = 'b';
+    char c = 'c';
+    char d = 'd';
+    char e = 'e';
+    char f = 'f';
+    char g = 'g';
+    char h = 'h';
+    char i = 'i';
+    char j = 'j';
+    char k = 'k';
+    char l = 'l';
+    char m = 'm';
+    char n = 'n';
+    char o = 'o';
+    char p = 'p';
+    char q = 'q';
+    char r = 'r';
+    char s = 's';
+    char t = 't';
+    char u = 'u';
+    char v = 'v';
+    char w = 'w';
+    char x = 'x';
+    char y = 'y';
+    char z = 'z';
+    int ii;
+    int na;    
+
+    char xa[] = "alireza" ;
+       
+    cout<<"your name : "<<xa<<endl;
+    
+    
+	for ( ii = 0 ; ii < 7 ; ii++)
+      	cout << xa[ii]<<" : " << ii << " =  " << int(xa[ii])<< "  "<< endl;     
+
+    na = xa[0]+xa[1]+xa[2]+xa[3]+xa[4]+xa[5]+xa[6]+xa[7];
+
+    cout<<"jame kole ascii code ha : "<<na<<endl;
+    
+
+    return 0;
+
+} 
